@@ -1,3 +1,4 @@
+// Spread Operation(...args)
 const removeFromArray = function(arr, ...args) {
   args.forEach((arg) => {
     if(arr.indexOf(arg) != -1){
